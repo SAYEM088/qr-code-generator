@@ -1,0 +1,37 @@
+:root{
+    --bg-color: #001122;
+    --primary-color:#155e75;
+    --box-redius:8px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg-color);
+}
+.box{
+    background-color: var(--primary-color);
+    padding: 30px;
+    width: 400px;
+    border-radius: var(--box-redius);
+}
+.qrHeader input{
+    width: 100%;
+    margin-block: 12px;
+    padding: 2px;
+}
+.qrFooter{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.qrFooter button{
+    padding: 5px;
+}
